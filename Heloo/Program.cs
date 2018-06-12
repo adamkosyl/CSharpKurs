@@ -10,6 +10,12 @@ namespace Heloo
     {
         static void Main(string[] args)
         {
+            //string name = args[0];
+            //Console.WriteLine("Witaj Adamie Kosyl" + name);
+            foreach (var item in args)
+            {
+                Console.WriteLine("Witaj  " + item);
+            }
         }
     }
 }
